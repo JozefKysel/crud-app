@@ -8,7 +8,10 @@ dotenv.config({
 export const appConfig = {
     port: parseInt(process.env.PORT, 10),
     axios: {
-        url: 'https://jsonplaceholder.typicode.com',
-        timeout: 10000
+        baseURL: 'https://jsonplaceholder.typicode.com',
+        timeout: 10000,
+        headers: {
+            'Accept': 'application/json',
+        }
     }
 }
