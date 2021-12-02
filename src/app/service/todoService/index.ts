@@ -1,6 +1,6 @@
 import e from "express";
-import TodoRepositoryImpl from "../../../repository/impl/todoRepository";
-import { Todo } from "../../../repository/impl/todoRepository/model";
+import TodoRepositoryImpl from "../../repository/impl/todoRepository";
+import { Todo } from "../../repository/impl/todoRepository/model";
 import { TodoDto } from "./model";
 
 export default class TodoService {

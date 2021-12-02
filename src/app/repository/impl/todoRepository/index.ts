@@ -1,5 +1,5 @@
 import { AxiosInstance } from "axios";
-import { TodoDto } from "../../../service/impl/todoService/model";
+import { TodoDto } from "../../../service/todoService/model";
 import { Repository } from "../../interface";
 import { Todo } from "./model";
 

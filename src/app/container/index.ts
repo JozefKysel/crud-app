@@ -1,5 +1,5 @@
 import TodoRepositoryImpl from "../repository/impl/todoRepository";
-import TodoService from "../service/impl/todoService";
+import TodoService from "../service/todoService";
 import axios from 'axios';
 import { appConfig } from "../../config";
 
